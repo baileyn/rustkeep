@@ -1,0 +1,12 @@
+[package]
+name = "rustkeep"
+version = "0.1.0"
+authors = ["Nicholas Bailey <nicholas.j.bailey91@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.38"
+passkeep = { path = "../passkeep" }
+pretty_env_logger = "0.4.0"
